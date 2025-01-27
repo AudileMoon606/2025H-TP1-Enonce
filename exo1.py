@@ -4,8 +4,7 @@ from datetime import datetime
 nom=str(input("Veuillez entrer votre nom complet : "))
 
 # Demander l'âge de l'utilisateur
-age_str=str(input("Veuillez entrer votre âge : "))
-age = int(age_str)
+age=int(input("Veuillez entrer votre âge : "))
 
 # Définir l'année actuelle
 DATE = datetime.today().year
